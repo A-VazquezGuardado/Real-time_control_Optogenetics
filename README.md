@@ -1,3 +1,3 @@
 # NatNeuroscience2020_NAME
 
-This file will contain information about the content of the material, as well as examples of notices to end users.
+This repository contains software, microcontroller firmware and data anlysis scripts used in the article publication. 
