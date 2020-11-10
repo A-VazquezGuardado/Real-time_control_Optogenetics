@@ -23,8 +23,6 @@ for i in range(n_mice):
     i *= 2
     plt.plot(positions[:, i], positions[:, i+1])
 
-print(positions[0, :])
-
 plt.xlim((0, env_width))
 plt.ylim((0, env_height))
 if n_mice == 1:

@@ -1,9 +1,9 @@
 import h5py
 import numpy as np
 import os
-import core
 from datetime import datetime
 import sys
+from tqdm import tqdm
 
 
 def is_interacting(reference_mouse_positions, other_mice_positions, threshold,
@@ -15,7 +15,8 @@ def is_interacting(reference_mouse_positions, other_mice_positions, threshold,
     Inputs
     ------
     reference_mouse_positions: (np array of shape 2, perimeter_resolution)
-    other_mice_positions: (np array of shape n_other_mice*2,perimeter_resolution)
+    other_mice_positions: (np array
+                           of shape n_other_mice*2,perimeter_resolution)
     threshold: (int) distance threshold in mm below which we consider the mice
                to be interacting
     n_other_mice: (int) how many other mice are in the arena

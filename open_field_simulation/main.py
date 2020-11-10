@@ -44,7 +44,7 @@ def main(N_MICE):
     for i in tqdm(range(simulation_length_ms)):
         # duration here is in ms
         for mouse in mice:
-            mouse.move(env, movement_duration=movement_duration)
+            mouse.move(movement_duration=movement_duration)
 
     # initialize arrays to store the data
     x_center_history, _, x_perimeter_history, _ = mice[0].get_position_history()
