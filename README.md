@@ -1,3 +1,3 @@
-# NatNeuroscience2020
+# Real-time Control in Wireless Multilateral Optogenetics for Broad Neuroscience Applications 
 
-This repository contains software, microcontroller firmware and data anlysis scripts used in the article publication. 
+This repository contains software, microcontroller firmware, data and anlysis scripts used in the article. 
